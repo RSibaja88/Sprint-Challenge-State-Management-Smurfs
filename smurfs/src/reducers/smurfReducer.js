@@ -1,7 +1,7 @@
 import {GET_SMURF, ADD_SMURF, SMURF_ERROR} from '../actions/smurfAction';
 
 const initalState = {
-    smurfs: [],
+    smurf: [],
     isFetchingData: false,
     error: ""
 };

@@ -10,7 +10,7 @@ export const getSmurf = () => dispatch => {
         axios   
             .get('http://localhost:3333/smurfs')
             .then(response => {
-                console.log(response.data)
+                // console.log("COMING FROM ACTIONS:", response.data)
                 dispatch({
                     type: ADD_SMURF,
                     payload: response.data
