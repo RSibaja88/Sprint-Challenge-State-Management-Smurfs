@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {connect} from 'react-redux';
 import {postSmurf} from "../actions/smurfAction";
+import './SmurfForm.css' 
 
 const SmurfForm = (props) => {
     const [newSmurf, setSmurf] = useState({
@@ -27,7 +28,7 @@ const SmurfForm = (props) => {
 
     return (
         <div>
-            <h1>Make a Smurf!</h1>
+            <h1>Create a Smurf!</h1>
             <form>
                 <input name='name'
                     onChange={handleChanges}

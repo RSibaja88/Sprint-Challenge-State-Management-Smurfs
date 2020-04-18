@@ -2,6 +2,7 @@ import React from 'react';
 import "./App.css";
 import {connect} from 'react-redux';
 import {getSmurf} from '../actions/smurfAction';
+import './SmurfList.css';
 
 
 const SmurfList = props => {
